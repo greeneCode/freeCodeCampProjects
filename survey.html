@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Survey</title>
+
+</head>
+
+
+
+<body>
+  <div class="survey">
+    <h1 id="title">Survey Form</h1>
+      <p id="description">FCC Survey Project</p>
+
+      <form id="survey-form">
+
+        <label for="name" id="name-label">
+        <input id="name" type="text" placeholder="Enter name" required><br><br>
+        </label>
+        <label for="email" id="email-label">
+        <input id="email" type="email" placeholder="Enter email" required><br><br>
+        </label>
+        <label for="number" id="number-label">
+        <input id="number" type="number" placeholder="Enter number" max="100" min="1" required><br><br>
+        </label>
+        <select id="dropdown" name="Select">
+          <option value="Option 1">Green</option>
+          <option value="Option 2">Blue</option>
+          <option value="Option 3">Red</option>
+        </select>
+
+        <label for="Male">
+          <input id="male" type="radio" name="male-female" value="male">Male
+        </label>
+        <label for="Female">
+          <input id="female" type="radio" name="male-female" value="female">Female
+        </label><br><br>
+
+        <label for="yes">
+          <input type="checkbox" name="yes-no" value="yes">Yes
+        </label>
+        <label for="no">
+          <input type="checkbox" name="yes-no" value="no">No
+        </label><br>
+
+        <textarea placeholder="Comments..."></textarea><br>
+        <button id="submit">Submit</submit>
+
+      </form>
+  </div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
